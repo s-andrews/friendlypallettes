@@ -1,3 +1,14 @@
+#' Get the colours from a specific pallette
+#'
+#' @param short_name The pallette short name
+#' @param num_colours Number of colours to return
+#'
+#' @return A vector of colours
+#' @export
+#'
+#' @examples
+#' get_colours("haicdf")
+#' get_colours("ptccc", num_colours=4)
 get_colours <- function(short_name, num_colours=0) {
 
   NULL -> pallette
