@@ -21,6 +21,6 @@ Find the pallette of your dreams
 }
 \examples{
 find_pallette()
-find_pallette(min_colors=12)
+find_pallette(min_colours=12)
 find_pallette(type="categorical")
 }

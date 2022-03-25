@@ -9,7 +9,7 @@
 #'
 #' @examples
 #' find_pallette()
-#' find_pallette(min_colors=12)
+#' find_pallette(min_colours=12)
 #' find_pallette(type="categorical")
 find_pallette <- function(min_colours=0, colourblind_friendly=FALSE, type=NULL) {
 
